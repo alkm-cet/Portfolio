@@ -26,3 +26,9 @@
   display: flex;
 }
 
+@media (max-width:1200px) {
+  .App {
+    width: 95%;
+    height: 95%;
+  }
+}

@@ -34,11 +34,11 @@ function Portfolio() {
 
                                     <div className="cardinfo">
                                         <h3 className='cardtitle'>{item.title}</h3>
-                                        <div>
+                                        <div >
                                             {
                                                 item.subtitles.map(subs => {
                                                     return (
-                                                        <p style={{ fontWeight: 500, fontSize: 12 }}>- {subs}</p>
+                                                        <p className='subtitles'>- {subs}</p>
                                                     )
                                                 })
                                             }

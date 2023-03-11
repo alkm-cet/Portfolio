@@ -18,6 +18,12 @@
     font-size: 40px;
 }
 
+@media (max-width:768px) {
+    .Portfolio h1 {
+        font-size: 25px;
+    }
+}
+
 .cardContainer {
     width: 100%;
     height: 90%;
@@ -29,6 +35,13 @@
     padding: 50px;
     /* border: 1px solid black; */
     gap: 20px;
+}
+
+@media (max-width:768px) {
+    .cardContainer {
+        align-items: center;
+        padding: 10px;
+    }
 }
 
 .cardContainer::-webkit-scrollbar {
@@ -53,7 +66,14 @@
     border-radius: 30px;
 }
 
-.cardmain:hover{
+@media (max-width:768px) {
+    .cardmain {
+        width: 95%;
+    }
+}
+
+
+.cardmain:hover {
     scale: 1.05;
 }
 
@@ -68,6 +88,27 @@
 
 }
 
+.cardtitle{
+
+}
+
+.subtitles {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+@media (max-width:530px) {
+    .subtitles {
+        font-size: 10px;
+    }
+}
+
+/* @media (max-width:530px) {
+    .cardMainTop {
+        flex-direction: column;
+    }
+} */
+
 .cardimage {
     width: 25%;
     height: 150px;
@@ -77,6 +118,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media (max-width:530px) {
+    .cardimage {
+        width: 50%;
+    }
 }
 
 .cardinfo {
@@ -95,12 +142,26 @@
     padding-left: 20px;
 }
 
+@media (max-width:530px) {
+    .cardinfo {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+}
+
+
 .iscardresponsive {
     align-self: flex-end;
     display: flex;
     align-items: center;
     gap: 5px;
     /* border: 1px solid black;  */
+}
+
+@media (max-width:530px) {
+    .iscardresponsive {
+        align-self: flex-start;
+    }
 }
 
 .iscardresponsive span {
@@ -124,6 +185,12 @@
     color: #0984e3;
 }
 
+@media (max-width:530px) {
+    .plusMinus {
+        font-size: 20px;
+    }
+}
+
 
 
 /* ---------------- CONTENT */
@@ -136,6 +203,7 @@
     /* transition: all 1s cubic-bezier(0, 1, 0, 1); */
     /* transition: all 1s ease; */
     display: none;
+    overflow-wrap: break-word;
 }
 
 .content.show {
@@ -150,6 +218,7 @@
     max-height: 9999px;
     /* transition: all 1s cubic-bezier(1, 0, 1, 0); */
     /* transition: all 1s ease; */
+    overflow-wrap: break-word;
 }
 
 .codeBTN {
@@ -170,6 +239,19 @@
     color: black;
     transition: all .3s ease;
 }
+
+@media (max-width:768px) {
+    .codeBTN {
+        width: 50%;
+    }
+}
+
+@media (max-width:530px) {
+    .codeBTN {
+        width: 70%;
+    }
+}
+
 
 .codeBTN span {
     font-size: 18px;

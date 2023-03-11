@@ -20,6 +20,14 @@
     font-size: 40px;
 }
 
+@media (max-width:768px) {
+    .AboutMe h1 {
+        font-size: 25px;
+    }
+}
+
+
+
 .aboutmecontainer {
     /* border: 1px solid black; */
     width: 100%;
@@ -28,6 +36,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:530px) {
+    .aboutmecontainer {
+        flex-direction: column;
+    }
 }
 
 
@@ -51,6 +65,19 @@
 
 }
 
+@media (max-width:768px) {
+    .aboutmeparagraf {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:530px) {
+    .aboutmeparagraf {
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
 .aboutmeparagraf h3 {
     width: 100%;
     display: flex;
@@ -72,6 +99,19 @@
     -webkit-background-clip: text; */
 }
 
+@media (max-width:768px) {
+    .aboutmeparagraf h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:530px) {
+    .aboutmeparagraf h3 {
+        font-size: 17px;
+    }
+}
+
+
 /* ------------------  HUMAN*/
 
 .aboutmehuman {
@@ -85,6 +125,14 @@
     position: relative;
 }
 
+@media (max-width:530px) {
+    .aboutmehuman {
+        width: 100%;
+        height: 200px;
+        font-size: 17px;
+    }
+}
+
 .purpleobject {
     /* border: 1px solid black; */
     width: 20%;
@@ -96,4 +144,10 @@
     position: absolute;
     top: 25%;
     left: 30%;
+}
+
+@media (max-width:530px) {
+    .purpleobject {
+        width: 5%;
+    }
 }
