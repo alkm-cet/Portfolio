@@ -77,6 +77,13 @@
     scale: 1.05;
 }
 
+@media (max-width:768px) {
+    .cardmain:hover {
+        scale: 1;
+    }
+}
+
+
 .cardMainTop {
     cursor: pointer;
     width: 100%;
@@ -236,8 +243,14 @@
     background-color: #FE0944;
 
 
-    color: black;
+    color: white;
     transition: all .3s ease;
+}
+
+@media (max-width:1500px) {
+    .codeBTN {
+        width: 30%;
+    }
 }
 
 @media (max-width:768px) {
@@ -258,5 +271,5 @@
 }
 
 .codeBTN:hover {
-    color: white;
+    color: black;
 }

@@ -87,6 +87,14 @@
     }
 }
 
+@media (max-width:600px) {
+    .hovercard {
+        width: 120px;
+        height: 170px;
+        font-size: 16px;
+    }
+}
+
 @media (max-width:530px) {
     .hovercard {
         width: 100px;
@@ -123,4 +131,22 @@
 .hovercard:hover~.hovercard {
     z-index: 1;
     translate: 60px;
+}
+
+@media (max-width:1200px) {
+    .hovercard:hover~.hovercard {
+        translate: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .hovercard:hover~.hovercard {
+        translate: 40px;
+    }
+}
+
+@media (max-width:530px) {
+    .hovercard:hover~.hovercard {
+        translate: 30px;
+    }
 }

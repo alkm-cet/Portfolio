@@ -26,9 +26,17 @@
   display: flex;
 }
 
+@media (max-width:1400px) {
+  .App {
+    width: 85%;
+    height: 80%;
+  }
+}
+
 @media (max-width:1200px) {
   .App {
     width: 95%;
-    height: 95%;
+    height: 80%;
+    margin-top: 10px;
   }
 }
