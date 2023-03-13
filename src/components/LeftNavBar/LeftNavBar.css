@@ -17,6 +17,7 @@
 @media (max-width:530px) {
     .LeftNavBar {
         padding: 20px 0px;
+        border-right: 1px solid black;
     }
 }
 
@@ -207,8 +208,8 @@
 
 @media (max-width:530px) {
     .cvBTN {
-        height: 100px;
-        font-size: 10px;
+        height: 80px;
+        font-size: 8px;
     }
 }
 
