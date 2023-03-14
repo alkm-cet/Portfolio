@@ -83,6 +83,10 @@
 
 }
 
+.aboutmeparagraf::-webkit-scrollbar {
+    display: none;
+}
+
 @media (max-width:768px) {
     .aboutmeparagraf {
         font-size: 15px;
