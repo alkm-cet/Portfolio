@@ -1,10 +1,17 @@
 .Skills {
     width: 100%;
     height: 100%;
-    /* border: 1px solid black; */
-
-
 }
+
+@media (max-width:530px) {
+    .Skills {
+        padding: 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 .Skills h1 {
     height: 10%;
@@ -25,17 +32,30 @@
     }
 }
 
+@media (max-width:530px) {
+    .Skills h1 {
+        display: none;
+    }
+}
+
 .skillsmidcontainer {
     width: 100%;
     height: 90%;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
     /* border: 1px solid black; */
 }
+
+/* 
+@media (max-width:530px) {
+    .skillsmidcontainer {
+        justify-content: ;
+    }
+} */
 
 /* ------------- SKILLS CARD */
 
@@ -44,16 +64,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
     width: 100%;
     justify-content: center;
-}
-
-@media (max-width:530px) {
-    .hoverContainer {
-        justify-content: flex-start;
-        padding-left: 10px;
-    }
 }
 
 .hovercard {
@@ -97,8 +109,8 @@
 
 @media (max-width:530px) {
     .hovercard {
-        width: 100px;
-        height: 150px;
+        width: 120px;
+        height: 170px;
         font-size: 16px;
     }
 }
@@ -147,6 +159,6 @@
 
 @media (max-width:530px) {
     .hovercard:hover~.hovercard {
-        translate: 30px;
+        translate: 35px;
     }
 }

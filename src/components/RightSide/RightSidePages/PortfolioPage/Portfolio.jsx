@@ -36,9 +36,9 @@ function Portfolio() {
                                         <h3 className='cardtitle'>{item.title}</h3>
                                         <div >
                                             {
-                                                item.subtitles.map(subs => {
+                                                item.subtitles.map((subs , index) => {
                                                     return (
-                                                        <p className='subtitles'>- {subs}</p>
+                                                        <p className='subtitles' key={index}>- {subs}</p>
                                                     )
                                                 })
                                             }

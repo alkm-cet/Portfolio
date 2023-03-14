@@ -44,8 +44,15 @@
 @media (max-width:768px) {
   .App {
     width: 95%;
-    height: 85%;
-    margin-top: 20px;
-    border: 2px solid black;
+    height: 95%;
+    margin-top: 10px;
+    border: 1px solid black;
+  }
+}
+
+@media (max-width:530px) {
+  .App {
+    flex-direction: column;
+    border: none;
   }
 }

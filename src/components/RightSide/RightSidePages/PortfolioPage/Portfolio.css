@@ -72,6 +72,12 @@
     }
 }
 
+@media (max-width:530px) {
+    .cardmain {
+        width: 100%;
+    }
+}
+
 
 .cardmain:hover {
     scale: 1.05;
