@@ -20,7 +20,7 @@
         width: 100%;
         position: absolute;
         overflow: hidden;
-        background-color: rgb(255, 244, 224);
+        background-color: white;
         border-radius: 30px;
     }
 }
@@ -30,7 +30,9 @@
     .LeftNavBar.show {
         gap: 20px;
         width: 100%;
-        background-color: rgb(255, 244, 224);
+        background-color: white;
+        
+
         position: absolute;
         border-radius: 30px 30px 10px 10px;
         /* border: 1px solid black; */
