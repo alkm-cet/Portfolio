@@ -33,7 +33,8 @@ function LeftNavBar() {
                         </span>
                         : <span class="material-symbols-outlined">
                             menu
-                        </span>}
+                        </span>
+                    }
                 </div>
             </div>
 
