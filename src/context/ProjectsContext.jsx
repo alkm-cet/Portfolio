@@ -22,7 +22,7 @@ export const ProjectsContext = createContext();
 const projects = [
     {
         id: 16,
-        title: "Rastaurant Website ****",
+        title: "Rastaurant Website",
         img: rastaurant,
         subtitles: ['React-Swiper', 'Figma', 'Design Based Project'],
         text:
@@ -31,11 +31,12 @@ const projects = [
             </div>,
         date: "21/03/2023",
         link: "https://f3uysu.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star', 'star', 'star']
     },
     {
         id: 15,
-        title: "GYM APP ****",
+        title: "GYM APP",
         img: gymapp,
         subtitles: ['React', 'Firebase', 'Firebase Database', 'Firebase Auth'],
         text:
@@ -52,11 +53,12 @@ const projects = [
             </div>,
         date: "08/03/2023",
         link: "https://kfl64t.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star', 'star', 'star']
     },
     {
         id: 14,
-        title: "Firebase Note App *****",
+        title: "Firebase Note App",
         img: FirebaseNotes,
         subtitles: ['React', 'Firebase', 'Firebase Database', 'Firebase Auth'],
         text: <div>In this work, I used Firebase for the first time and included
@@ -70,11 +72,12 @@ const projects = [
         </div>,
         date: "28/02/2023",
         link: "https://jm4h9o.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star', 'star', 'star', 'star']
     },
     {
         id: 13,
-        title: "Planti Dashboard *****",
+        title: "Planti Dashboard",
         img: Planti,
         subtitles: ['React', 'Design Based Project'],
         text: <div>This is a design-oriented responsive dashboard work.
@@ -85,11 +88,12 @@ const projects = [
         </div>,
         date: "25/02/2023",
         link: "https://jwn62u.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star', 'star', 'star', 'star']
     },
     {
         id: 12,
-        title: "Credit Card Design ***",
+        title: "Credit Card Design",
         img: creditCard,
         subtitles: ['Bootstrap', 'React', 'Figma Design'],
         text: <div>In this application, I tried to create a
@@ -99,11 +103,12 @@ const projects = [
         </div>,
         date: "21/02/2023",
         link: "https://gbys2z.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star', 'star']
     },
     {
         id: 11,
-        title: "Weather App (API) ****",
+        title: "Weather App (API)",
         img: weatherApp,
         subtitles: ['Open Weather API', 'React', 'Figma Design', 'Axios'],
         text: <div>In this application, I made a weather application using the API that the
@@ -112,7 +117,8 @@ const projects = [
         </div>,
         date: "19/02/2023",
         link: "https://1zc1t2.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star', 'star', 'star']
     },
     {
         id: 10,
@@ -139,11 +145,12 @@ const projects = [
         </div>,
         date: "04/02/2023",
         link: "https://alkm-cet.github.io/Ecommerce/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star', 'star', 'star']
     },
     {
         id: 9,
-        title: "CV Maker ***",
+        title: "CV Maker",
         img: cvmaker,
         subtitles: ['Context API', 'Router', 'Bootstrap'],
         text: <div>
@@ -163,11 +170,12 @@ const projects = [
         </div>,
         date: "28/01/2023",
         link: "https://2slfcz.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star', 'star']
     },
     {
         id: 8,
-        title: "Photo Search App (API) ***",
+        title: "Photo Search App (API)",
         img: unsplashapi,
         subtitles: ['Unsplash API', 'React', 'Axios', 'API Search'],
         text: <div>In this application, I used the API provided by the unsplash site. In this 'Photo Search
@@ -177,11 +185,12 @@ const projects = [
             to the photos in the desired content.</div>,
         date: "27/01/2023",
         link: "https://26bgdg.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star', 'star']
     },
     {
         id: 7,
-        title: "Figma Login Page **",
+        title: "Figma Login Page",
         img: figmaloginpage,
         subtitles: ['Figma design into code'],
         text: <div>In this project, I put a figma design into code for the first time. I chose a project
@@ -193,11 +202,12 @@ const projects = [
             necessary javascript codes for the buttons and inputs in the project.</div>,
         date: "25/01/2023",
         link: "https://alkm-cet.github.io/figmaloginpage/",
-        responsive: false
+        responsive: false,
+        stars: ['star', 'star']
     },
     {
         id: 6,
-        title: "Twitter Clone **",
+        title: "Twitter Clone",
         img: twitterclone,
         subtitles: ['React', 'Lifting State Up', 'Prop Drilling'],
         text: <div>In this demo project,
@@ -216,11 +226,12 @@ const projects = [
             Additional features will be included in the project in the future.</div>,
         date: "19/01/2023",
         link: "https://seuslr.csb.app/#",
-        responsive: false
+        responsive: false,
+        stars: ['star', 'star']
     },
     {
         id: 5,
-        title: "Car Game ***",
+        title: "Car Game",
         img: cargame,
         subtitles: ['Target events', 'If/Else conditions', 'DOM Manipulation'],
         text: <div>In this demo project,
@@ -243,11 +254,12 @@ const projects = [
             are sold, and more cars will be added.</div>,
         date: "11/01/2023",
         link: "https://codepen.io/alkm181716/pen/mdjmeJY?editors=1010",
-        responsive: false
+        responsive: false,
+        stars: ['star', 'star','star']
     },
     {
         id: 4,
-        title: "Music Player ****",
+        title: "Music Player",
         img: MusicPlayer,
         subtitles: ['Construction functions', 'Arrays', 'DOM Manipulation', 'Audio events'],
         text: <div>In this project, Javascript is mainly used. Arrays are created using the
@@ -256,11 +268,12 @@ const projects = [
             concluded by using if-else structures abundantly.</div>,
         date: "21/12/2022",
         link: "https://codepen.io/alkm181716/pen/abjzPBo",
-        responsive: false
+        responsive: false,
+        stars: ['star', 'star','star','star']
     },
     {
         id: 3,
-        title: "One Page Grid **",
+        title: "One Page Grid",
         img: onePageGrid4,
         subtitles: ['Grid'],
         text: <div>This page is a very similar copy of a design on the internet. The goal is
@@ -268,11 +281,12 @@ const projects = [
             the copied page. It is one of the first examples I made while learning the grid concept.</div>,
         date: "19/11/2022",
         link: "https://codepen.io/alkm181716/pen/WNydjZN",
-        responsive: false
+        responsive: false,
+        stars: ['star', 'star']
     },
     {
         id: 2,
-        title: "Country Info (API) **",
+        title: "Country Info (API)",
         img: countryApi,
         subtitles: ['API', 'Async Await', 'DOM Manipulation', 'Json', 'Creating Html elements'],
         text: <div>In this study, I had the chance to use the API for the first time. I pulled
@@ -283,7 +297,8 @@ const projects = [
             JS Version : https://codepen.io/alkm181716/pen/jOpbNeN</div>,
         date: "23/12/2022",
         link: "https://24hqln.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star']
     },
     {
         id: 1,
@@ -300,7 +315,8 @@ const projects = [
             Previous version: https://codepen.io/alkm181716/pen/poZoawE</div>,
         date: "12/02/2023",
         link: "https://j9rf1r.csb.app/",
-        responsive: true
+        responsive: true,
+        stars: ['star', 'star','star']
     },
 ]
 

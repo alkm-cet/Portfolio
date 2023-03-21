@@ -34,9 +34,18 @@ function Portfolio() {
 
                                     <div className="cardinfo">
                                         <h3 className='cardtitle'>{item.title}</h3>
+                                        <div>
+                                            {
+                                                item.stars?.map((star, index) => {
+                                                    return (
+                                                        <span style={{ fontSize: '15px', color: 'blue' }} key={index} className="material-symbols-outlined">{star}</span>
+                                                    )
+                                                })
+                                            }
+                                        </div>
                                         <div >
                                             {
-                                                item.subtitles.map((subs , index) => {
+                                                item.subtitles.map((subs, index) => {
                                                     return (
                                                         <p className='subtitles' key={index}>- {subs}</p>
                                                     )
