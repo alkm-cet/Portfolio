@@ -30,7 +30,7 @@ const projects = [
                 In this project, I tried to put the figma design into code. I want to turn this website, which I designed as mobile responsive, into a full-scale project by adding the relevant pages in the future.
             </div>,
         date: "21/03/2023",
-        link: "https://rbhynv.csb.app/",
+        link: "https://f3uysu.csb.app/",
         responsive: true
     },
     {
