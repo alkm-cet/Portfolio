@@ -27,12 +27,12 @@ const projects = [
         subtitles: ['React-Swiper', 'Figma', 'Design Based Project'],
         text:
             <div>
-                In this project, I tried to put the figma design into code. I want to turn this website, which I designed as mobile responsive, into a full-scale project by adding the relevant pages in the future.
+                A full-scale design-oriented website.
             </div>,
         date: "21/03/2023",
         link: "https://rbhynv.csb.app/",
         responsive: true,
-        stars: ['star', 'star', 'star', 'star']
+        stars: ['star', 'star', 'star', 'star','star']
     },
     {
         id: 15,
