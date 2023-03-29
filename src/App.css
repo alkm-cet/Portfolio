@@ -8,8 +8,8 @@
 }
 
 .App {
-  width: 70%;
-  height: 95%;
+  width: 60%;
+  height: 70%;
   border: 3px solid rgb(255, 255, 255);
 
   position: absolute;
@@ -24,6 +24,12 @@
   border-radius: 30px;
 
   display: flex;
+}
+
+@media (max-height:800px) {
+  .App {
+    height: 90%;
+  }
 }
 
 @media (max-width:1400px) {
