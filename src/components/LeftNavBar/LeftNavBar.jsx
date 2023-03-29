@@ -5,7 +5,7 @@ import email from '../../images/email.png'
 import github from '../../images/github.png'
 import linkedin from '../../images/linkedin.png'
 import { Link } from "react-router-dom";
-import CV from '../../../src/CV/CV.pdf'
+import CV from '../../../src/CV/CVr.pdf'
 
 function LeftNavBar() {
 
@@ -69,7 +69,7 @@ function LeftNavBar() {
 
                 </div>
 
-                <a className='cvhref' href={CV} download='AKC_CV.pdf'>
+                <a className='cvhref' href={CV} download='Ali-Kemal-Cetindere_CV.pdf'>
                     <button className='cvBTN'>Download CV
                         <span class="material-symbols-outlined">
                             description
