@@ -15,11 +15,31 @@ import Planti from '../images/Planti.PNG'
 import FirebaseNotes from '../images/FirebaseNotes.PNG'
 import gymapp from '../images/gymapp.PNG'
 import rastaurant from '../images/restaurant.PNG'
+import coinsite from '../images/coinsite.PNG'
 
 
 export const ProjectsContext = createContext();
 
 const projects = [
+    {
+        id: 17,
+        title: "Cryptocurrency Website (API)",
+        img: coinsite,
+        subtitles: ['react-router-dom v6 / useParams', 'CoinGecko API', 'Chart.js'],
+        text:
+            <div>
+                In this project, I pulled the data of cryptocurrencies using the CoinGecko API.
+                Using 3 different APIs, I used the relevant information in the fields I wanted.I also had the opportunity to use the Chart.js library for the first time. <br /><br />
+                - You can go to the page where you will see the graphics by clicking on the coins on the Market page.<br /><br />
+                - You can add the coins in the Market section to the watch list with the star button on the left.<br /><br />
+                I plan to add multi-page, search button and other small plugins in the future.<br /><br />
+                Although the site is not yet responsive, it will be made responsive.
+            </div>,
+        date: "02/04/2023",
+        link: "https://mxn1vr.csb.app/",
+        responsive: false,
+        stars: ['star', 'star', 'star']
+    },
     {
         id: 16,
         title: "Rastaurant Website",
@@ -32,7 +52,7 @@ const projects = [
         date: "21/03/2023",
         link: "https://rbhynv.csb.app/",
         responsive: true,
-        stars: ['star', 'star', 'star', 'star','star']
+        stars: ['star', 'star', 'star', 'star', 'star']
     },
     {
         id: 15,
@@ -255,7 +275,7 @@ const projects = [
         date: "11/01/2023",
         link: "https://codepen.io/alkm181716/pen/mdjmeJY?editors=1010",
         responsive: false,
-        stars: ['star', 'star','star']
+        stars: ['star', 'star', 'star']
     },
     {
         id: 4,
@@ -269,7 +289,7 @@ const projects = [
         date: "21/12/2022",
         link: "https://codepen.io/alkm181716/pen/abjzPBo",
         responsive: false,
-        stars: ['star', 'star','star','star']
+        stars: ['star', 'star', 'star', 'star']
     },
     {
         id: 3,
@@ -316,7 +336,7 @@ const projects = [
         date: "12/02/2023",
         link: "https://j9rf1r.csb.app/",
         responsive: true,
-        stars: ['star', 'star','star']
+        stars: ['star', 'star', 'star']
     },
 ]
 
