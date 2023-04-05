@@ -29,6 +29,7 @@
 @media (max-height:800px) {
   .App {
     height: 90%;
+    width: 75%;
   }
 }
 
