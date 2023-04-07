@@ -16,11 +16,29 @@ import FirebaseNotes from '../images/FirebaseNotes.PNG'
 import gymapp from '../images/gymapp.PNG'
 import rastaurant from '../images/restaurant.PNG'
 import coinsite from '../images/coinsite.PNG'
+import architecturewebsite from '../images/architecturewebsite.PNG'
 
 
 export const ProjectsContext = createContext();
 
 const projects = [
+    {
+        id: 18,
+        title: "Architecture Site Landing Page",
+        img: architecturewebsite,
+        subtitles: ['Figma', 'Design Based Project'],
+        text:
+            <div>
+                I wrote a nice looking landing page from Figma.
+                <br /><br />
+                The site can be easily made mobile responsive, but I did not design it as
+                mobile responsive because the original design looks good on the computer.
+            </div>,
+        date: "07/04/2023",
+        link: "https://8n5gr6.csb.app/",
+        responsive: false,
+        stars: ['star', 'star', 'star']
+    },
     {
         id: 17,
         title: "Cryptocurrency Website (API)",
