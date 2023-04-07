@@ -36,7 +36,7 @@ const projects = [
             </div>,
         date: "07/04/2023",
         link: "https://2x031s.csb.app/",
-        responsive: false,
+        responsive: true,
         stars: ['star', 'star', 'star']
     },
     {
