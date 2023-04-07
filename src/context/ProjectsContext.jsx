@@ -31,11 +31,11 @@ const projects = [
             <div>
                 I wrote a nice looking landing page from Figma.
                 <br /><br />
-                The site can be easily made mobile responsive, but I did not design it as
-                mobile responsive because the original design looks good on the computer.
+                Although the design is responsive, the real beauty of the site is
+                that it looks better on the computer.
             </div>,
         date: "07/04/2023",
-        link: "https://8n5gr6.csb.app/",
+        link: "https://2x031s.csb.app/",
         responsive: false,
         stars: ['star', 'star', 'star']
     },
