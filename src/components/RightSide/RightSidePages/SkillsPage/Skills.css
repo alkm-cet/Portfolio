@@ -91,6 +91,12 @@
     transition: 300ms ease-in-out;
 }
 
+.hovercard small {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
 @media (max-width:768px) {
     .hovercard {
         width: 150px;

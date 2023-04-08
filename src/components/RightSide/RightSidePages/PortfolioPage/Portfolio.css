@@ -46,9 +46,9 @@
     }
 }
 
-.cardContainer::-webkit-scrollbar {
+/* .cardContainer::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .cardmain {
     width: 90%;

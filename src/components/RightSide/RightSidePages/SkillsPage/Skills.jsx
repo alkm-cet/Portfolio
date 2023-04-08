@@ -1,11 +1,13 @@
 import React from 'react'
 import './Skills.css';
+//IMAGES
 import html from '../../../../images/html.png'
 import css from '../../../../images/css.png'
 import react from '../../../../images/react.png'
 import bootstrap from '../../../../images/bootstrap.png'
 import javascript from '../../../../images/javascript.png'
 import database from '../../../../images/database.png'
+import typescript from '../../../../images/typescript.png'
 
 
 function Skills() {

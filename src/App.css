@@ -7,6 +7,25 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 81, 255, 0.515);
+  border-radius: 10px;
+}
+
+
+/* ----------- */
 .App {
   width: 60%;
   height: 70%;
