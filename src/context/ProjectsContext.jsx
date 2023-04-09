@@ -227,23 +227,6 @@ const projects = [
         stars: ['star', 'star', 'star']
     },
     {
-        id: 7,
-        title: "Figma Login Page",
-        img: figmaloginpage,
-        subtitles: ['Figma design into code'],
-        text: <div>In this project, I put a figma design into code for the first time. I chose a project
-            designed in Figma and made it usable by coding it exactly.<br /><br />
-            I will continue to do this and
-            similar projects in order to be able to code the designs made with Figma and understand the
-            figma.<br /><br />
-            I have added this project to my portfolio, which I can use later by writing the
-            necessary javascript codes for the buttons and inputs in the project.</div>,
-        date: "25/01/2023",
-        link: "https://alkm-cet.github.io/figmaloginpage/",
-        responsive: false,
-        stars: ['star', 'star']
-    },
-    {
         id: 6,
         title: "Twitter Clone",
         img: twitterclone,
@@ -291,7 +274,7 @@ const projects = [
             In the next update, the cars will have to wait until the time written on them before they
             are sold, and more cars will be added.</div>,
         date: "11/01/2023",
-        link: "https://codepen.io/alkm181716/pen/mdjmeJY?editors=1010",
+        link: "https://codepen.io/alkm181716/full/mdjmeJY",
         responsive: false,
         stars: ['star', 'star', 'star']
     },
@@ -305,7 +288,7 @@ const projects = [
             html tags. In this study, which dome manipulation is frequently used, the project was
             concluded by using if-else structures abundantly.</div>,
         date: "21/12/2022",
-        link: "https://codepen.io/alkm181716/pen/abjzPBo",
+        link: "https://codepen.io/alkm181716/full/abjzPBo",
         responsive: false,
         stars: ['star', 'star', 'star', 'star']
     },
@@ -318,7 +301,7 @@ const projects = [
             to create a blog's homepage using the "grid". Photos and texts are placed using the data of
             the copied page. It is one of the first examples I made while learning the grid concept.</div>,
         date: "19/11/2022",
-        link: "https://codepen.io/alkm181716/pen/WNydjZN",
+        link: "https://codepen.io/alkm181716/full/WNydjZN",
         responsive: false,
         stars: ['star', 'star']
     },
