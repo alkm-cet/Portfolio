@@ -35,7 +35,7 @@ const projects = [
                 that it looks better on the computer.
             </div>,
         date: "07/04/2023",
-        link: "https://2x031s.csb.app/",
+        link: "https://eekoz3.csb.app/",
         responsive: true,
         stars: ['star', 'star', 'star']
     },
@@ -68,7 +68,7 @@ const projects = [
                 A full-scale design-oriented website.
             </div>,
         date: "21/03/2023",
-        link: "https://rbhynv.csb.app/",
+        link: "https://trv9qh.csb.app/",
         responsive: true,
         stars: ['star', 'star', 'star', 'star', 'star']
     },
