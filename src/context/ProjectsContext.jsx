@@ -2,7 +2,6 @@ import React, { createContext, useState } from 'react'
 import ecommerce2 from '../images/ecommerce2.PNG'
 import cvmaker from '../images/cvmaker.PNG'
 import unsplashapi from '../images/unsplashapi.PNG'
-import figmaloginpage from '../images/loginpage.PNG'
 import twitterclone from '../images/twitter2.PNG'
 import cargame from '../images/cargame.PNG'
 import MusicPlayer from '../images/MusicPlayer.PNG'
@@ -17,11 +16,28 @@ import gymapp from '../images/gymapp.PNG'
 import rastaurant from '../images/restaurant.PNG'
 import coinsite from '../images/coinsite.PNG'
 import architecturewebsite from '../images/architecturewebsite.PNG'
+import etkinlikler from '../images/etkinlikler.PNG'
 
 
 export const ProjectsContext = createContext();
 
 const projects = [
+    {
+        id: 19,
+        title: "Events Page",
+        img: etkinlikler,
+        subtitles: ['Fully Functional Page', 'Figma', 'Context API'],
+        text:
+            <div>
+                This page should be considered as the events page of a website.
+                <br /><br />
+                The desired events can be filtered using the filters and the search bar. This page, which is completely mobile-friendly, works without deterioration in intermediate sizes.
+            </div>,
+        date: "05/05/2023",
+        link: "https://events-web-page.vercel.app/",
+        responsive: true,
+        stars: ['star', 'star', 'star', 'star', 'star']
+    },
     {
         id: 18,
         title: "Architecture Site Landing Page",
