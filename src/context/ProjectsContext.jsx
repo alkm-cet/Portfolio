@@ -17,11 +17,31 @@ import rastaurant from '../images/restaurant.PNG'
 import coinsite from '../images/coinsite.PNG'
 import architecturewebsite from '../images/architecturewebsite.PNG'
 import etkinlikler from '../images/etkinlikler.PNG'
+import youtube1 from '../images/youtube1.PNG'
+import youtube2 from '../images/youtube2.PNG'
 
 
 export const ProjectsContext = createContext();
 
 const projects = [
+    {
+        id: 20,
+        title: "Youtube Clone",
+        img: youtube2,
+        subtitles: ['Functional Page', 'Youtube API', 'react-router-dom v6 / useParams'],
+        text:
+            <div>
+                This is basically a youtube clone
+                <br /><br />
+                The data is pulled from the API provided by Youtube.
+                <br /><br />
+                I continue to develop this site and will make it mobile responsive soon.
+            </div>,
+        date: "11/05/2023",
+        link: "https://youtube-clone-woad-gamma.vercel.app/",
+        responsive: false,
+        stars: ['star', 'star', 'star', 'star']
+    },
     {
         id: 19,
         title: "Events Page",
