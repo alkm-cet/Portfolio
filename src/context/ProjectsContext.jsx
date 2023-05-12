@@ -35,11 +35,11 @@ const projects = [
                 <br /><br />
                 The data is pulled from the API provided by Youtube.
                 <br /><br />
-                I continue to develop this site and will make it mobile responsive soon.
+                I continue to develop this site.
             </div>,
         date: "11/05/2023",
         link: "https://youtube-clone-woad-gamma.vercel.app/",
-        responsive: false,
+        responsive: true,
         stars: ['star', 'star', 'star', 'star']
     },
     {
